@@ -1,0 +1,207 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Poppins:wght@500;600&display=swap');
+
+/* font family 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+/* ===== import files ===== */
+@import url(bootstrap.min.css);
+@import url(font.all.min.css);
+@import url(jquery.bxslider.css);
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(venobox.min.css);
+@import url(jquery.bxslider.css);
+/* ===== import files ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-size: 16px;
+    line-height: 1.80857;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+  }
+  a,
+  .btn {
+    text-decoration: none !important;
+    display: inline-block;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h1{
+        font-weight: SemiBold;
+        Font-size: 48px;
+        Line-height: 64px;
+        Line-height: 89%;
+        align-items: center;
+        Vertical-align: Top;
+  }
+  h2{
+        font-weight: SemiBold;
+        Font-size: 48px;
+        Line-height: 64px;
+        Line-height: 89%;
+        Align-items: Center;
+        Vertical-align: Top;
+  }
+  h3{
+        Font-weight: SemiBold;
+        Font-size: 38px;
+        Line-height: 56px;
+        Line-height: 98%;
+        Align-items: Left;
+        Vertical-align: Top;
+  }
+  h4,
+  h5{
+    Font-weight: Medium;
+    Font-size: 32px;
+    Line-height: 48px;
+    Line-height: 100%;
+    Align-items: Left;
+    Vertical-align: Top;
+  }
+  
+  h6 {
+    Font-weight: Medium;
+    Font-size: 24px;
+    Line-height: 36px;
+    Line-height: 100%;
+    Align-items: Left;
+    Vertical-align: Top;
+  }
+  p {
+    margin-bottom: 0;
+    line-height: 117%;
+    Align: Left;
+    Vertical-align: Top;
+  }
+  *::after,
+  *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  button:focus {
+    outline: none;
+  }
+  ul,
+  li,
+  ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  input:focus {
+    box-shadow: none !important;
+  }
+  :focus {
+    outline: 0;
+  }
+  :root {
+    --primary-bgcolor: #1C1E53;
+    --secondary-bgcolor:#F4F6FC;
+    --primary-color: #FCD980;
+    --secondary-color: #6b6b6b;
+  }
+  .container{
+    width: 1286px;
+    margin: 0 auto;
+    justify-content: center;
+    }
+ 
+  /* ===== common-css_part start ===== */
+.layout_padding {
+    padding: 50px 0;
+  }
+  .section-bgColor {
+    background-color: #fffbee;
+  }
+  .section-heading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+  }
+  .section-heading::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -15px;
+    background-color: var(--primary-bgcolor);
+  }
+  .theme-btn {
+    display: inline-block;
+    background-color: var(--primary-bgcolor);
+    padding: 5px 20px;
+    border: 1px solid var(--primary-bgcolor);
+    color: var(--primary-color);
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+  .theme-btn:hover {
+    background-color: var(--secondary-bgcolor);
+    border: 1px solid var(--secondary-bgcolor);
+    color: #000000;
+  }
+
+  /* ================================================================================= */
+/* ===== nav-part start ===== */
+.nav-section{
+    padding-top: 69px 0 129px;
+}
+.navbar{
+    background-color: var(--primary-bgcolor);
+}
+ .navbar-nav{
+    gap:32px;
+ }
+.nav-section .nav-link:hover{
+    border: 1px solid rgb(150, 191, 245);
+    border-radius: 20px;
+    color: #4bcaff !important;
+}
+.nav-section .nav-link{
+    border: 1px solid transparent;
+  
+}
+.nav-btn{
+    border: 1px solid var(--secondary-bgcolor);
+    border-radius: 25px; 
+    color: white;
+}
+
+.nav-btn:hover{
+    border: 1px solid rgb(150, 191, 245);
+    border-radius: 20px;
+    color: #4bcaff !important;
+}
+/* ===== nav-part end ===== */
+
+
+
+
+/* ===== -part start ===== */
+/* ===== -part end ===== */
+
+
