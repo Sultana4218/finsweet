@@ -1,9 +1,10 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Poppins:wght@500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
 /* font family 
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'Poppins', sans-serif;
+font-family: 'Manrope', sans-serif;
 */
 /* ===== import files ===== */
 @import url(bootstrap.min.css);
@@ -45,7 +46,7 @@ font-family: 'Poppins', sans-serif;
     text-decoration: none;
   }
   h1{
-        font-weight: SemiBold;
+        font-weight: 500;
         Font-size: 48px;
         Line-height: 64px;
         Line-height: 89%;
@@ -88,8 +89,9 @@ font-family: 'Poppins', sans-serif;
   }
   p {
     margin-bottom: 0;
+    padding-top: 32px;
     line-height: 117%;
-    Align: Left;
+    align-items: Left;
     Vertical-align: Top;
   }
   *::after,
@@ -127,9 +129,7 @@ font-family: 'Poppins', sans-serif;
     }
  
   /* ===== common-css_part start ===== */
-.layout_padding {
-    padding: 50px 0;
-  }
+
   .section-bgColor {
     background-color: #fffbee;
   }
@@ -152,10 +152,10 @@ font-family: 'Poppins', sans-serif;
   }
   .theme-btn {
     display: inline-block;
-    background-color: var(--primary-bgcolor);
+    background-color: var(--primary-color);
     padding: 5px 20px;
-    border: 1px solid var(--primary-bgcolor);
-    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: black;
     border-radius: 20px;
     text-transform: uppercase;
   }
@@ -167,7 +167,7 @@ font-family: 'Poppins', sans-serif;
 
   /* ================================================================================= */
 /* ===== nav-part start ===== */
-.nav-section{
+#nav-section{
     padding-top: 69px 0 129px;
 }
 .navbar{
@@ -176,12 +176,12 @@ font-family: 'Poppins', sans-serif;
  .navbar-nav{
     gap:32px;
  }
-.nav-section .nav-link:hover{
+#nav-section .nav-link:hover{
     border: 1px solid rgb(150, 191, 245);
     border-radius: 20px;
     color: #4bcaff !important;
 }
-.nav-section .nav-link{
+#nav-section .nav-link{
     border: 1px solid transparent;
   
 }
@@ -197,8 +197,29 @@ font-family: 'Poppins', sans-serif;
     color: #4bcaff !important;
 }
 /* ===== nav-part end ===== */
+/* ===== banner-part start ===== */
+#banner-part{
+    padding:154px 0 119px;
+    background-color: var(--primary-bgcolor);
+    color: var(--secondary-bgcolor);
+    gap: 149px;
+}
+.banner-text p{
+    font-weight: 400;
+    Font-size: 16px;
+    Line-height: 28px;
+}
+
+.banner-button{
+    font-family: 'Manrope';
+    padding-top: 49px;
+}
+.banner-button i{
+    padding:10px ;
+}
 
 
+/* ===== banner-part end ===== */
 
 
 /* ===== -part start ===== */
