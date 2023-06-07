@@ -30,6 +30,7 @@ font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     overflow-x: hidden;
+    color: #282938;
   }
   a,
   .btn {
@@ -46,50 +47,46 @@ font-family: 'Manrope', sans-serif;
     text-decoration: none;
   }
   h1{
-        font-weight: 500;
-        Font-size: 48px;
-        Line-height: 64px;
-        Line-height: 89%;
+        font-weight: 700;
+        Font-size: 54px;
+        Line-height: 74px;
         align-items: center;
         Vertical-align: Top;
   }
+
   h2{
-        font-weight: SemiBold;
+        font-weight: 600;
         Font-size: 48px;
         Line-height: 64px;
-        Line-height: 89%;
         Align-items: Center;
         Vertical-align: Top;
   }
   h3{
-        Font-weight: SemiBold;
+        Font-weight: 600;
         Font-size: 38px;
         Line-height: 56px;
-        Line-height: 98%;
         Align-items: Left;
         Vertical-align: Top;
   }
   h4,
   h5{
-    Font-weight: Medium;
+    Font-weight: 500;
     Font-size: 32px;
-    Line-height: 48px;
     Line-height: 100%;
     Align-items: Left;
     Vertical-align: Top;
   }
   
   h6 {
-    Font-weight: Medium;
+    Font-weight: 500;
     Font-size: 24px;
     Line-height: 36px;
-    Line-height: 100%;
     Align-items: Left;
     Vertical-align: Top;
   }
   p {
     margin-bottom: 0;
-    padding-top: 32px;
+    padding-top: 25px;
     line-height: 117%;
     align-items: Left;
     Vertical-align: Top;
@@ -126,6 +123,7 @@ font-family: 'Manrope', sans-serif;
     width: 1286px;
     margin: 0 auto;
     justify-content: center;
+    padding: 132px 0 122px ;
     }
  
   /* ===== common-css_part start ===== */
@@ -177,8 +175,6 @@ font-family: 'Manrope', sans-serif;
     gap:32px;
  }
 #nav-section .nav-link:hover{
-    border: 1px solid rgb(150, 191, 245);
-    border-radius: 20px;
     color: #4bcaff !important;
 }
 #nav-section .nav-link{
@@ -199,7 +195,6 @@ font-family: 'Manrope', sans-serif;
 /* ===== nav-part end ===== */
 /* ===== banner-part start ===== */
 #banner-part{
-    padding:154px 0 119px;
     background-color: var(--primary-bgcolor);
     color: var(--secondary-bgcolor);
     gap: 149px;
@@ -219,10 +214,67 @@ font-family: 'Manrope', sans-serif;
 }
 
 
+
 /* ===== banner-part end ===== */
+/* ===== work-part start ===== */
+#work-part{
+    background-color: var(--secondary-bgcolor);
+}
+#work-part .col-4{
+    height: 184px ;
+    width: 405px;
+}
+#work-part .col-8{
+    width: 656px;
+    height: 405px;
+}
+.point{
+    padding-top: 53px ;
+}
+#work-part img {
+    padding-bottom: 20px;
+}
+#work-part a{
+    padding-top: 19px;
+}
+
+/* ===== work-part end ===== */
+/* ===== project-part start ===== */
+
+#project-part a{
+    text-align: right;
+}
+/* ===== project-part end ===== */
+/* ===== features-part start ===== */
+#Features-part{
+    background-color: var(--secondary-bgcolor);
+}
+.features-text p{
+    text-align: center;
+}
+.features-text h2{
+   text-align: center;
+   
+}
+.card{
+    border: none;
+   margin: 25px ;
+   padding: 0 10px;
+}
+.card p{
+    Opacity: 70%;
+}
+
+/* ===== features-part end ===== */
+
+/* ===== clients-part start ===== */
+#clients-part img{
+  padding-top: 55px;
+}
+/* ===== clients-part end ===== */
+
 
 
 /* ===== -part start ===== */
 /* ===== -part end ===== */
-
 
